@@ -19,7 +19,8 @@ Kreatori aplikacije, podržavaju i podstiču podnosioce zahtjeva da nagrade volo
 	* Neregistrovani posjetioci stranice
 		* Pregled naslovne stranice
 		* Registracija na stranicu ili kreiranje korisničkog računa
-		* Registrovani građani
+
+	* Registrovani građani
 		* Kreiranje zahtjeva za odlazak u kupovinu
 		* Kreiranje zahtjeva za odlazak u banku
 		* Kreiranje zahtjeva za odlazak u poštu
