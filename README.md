@@ -16,28 +16,28 @@ Kreatori aplikacije, podržavaju i podstiču podnosioce zahtjeva da nagrade volo
 
 * Funkcionalnosti
 
-* Neregistrovani posjetioci stranice
-	* Pregled naslovne stranice
-	* Registracija na stranicu ili kreiranje korisničkog računa
-	* Registrovani građani
-	* Kreiranje zahtjeva za odlazak u kupovinu
-	* Kreiranje zahtjeva za odlazak u banku
-	* Kreiranje zahtjeva za odlazak u poštu
-	* Pregled ponuda od strane volontera
-	* Odabir volontera za rad
-	* Podnošenje žalbe na volontera
-	* Ocjenjivanje volontera
+	* Neregistrovani posjetioci stranice
+		* Pregled naslovne stranice
+		* Registracija na stranicu ili kreiranje korisničkog računa
+		* Registrovani građani
+		* Kreiranje zahtjeva za odlazak u kupovinu
+		* Kreiranje zahtjeva za odlazak u banku
+		* Kreiranje zahtjeva za odlazak u poštu
+		* Pregled ponuda od strane volontera
+		* Odabir volontera za rad
+		* Podnošenje žalbe na volontera
+		* Ocjenjivanje volontera
 
-* Registrovani volonteri
-	* Pregled zahtjeva kreiranih od strane građana
-	* Slanje ponude za pomoć građanima
-	* Podnošenje žalbe na građana
-	* Ocjenjivanje građana
+	* Registrovani volonteri
+		* Pregled zahtjeva kreiranih od strane građana
+		* Slanje ponude za pomoć građanima
+		* Podnošenje žalbe na građana
+		* Ocjenjivanje građana
 
-* Administrator
-	* Pristup komandnoj ploči
-	* Odobravanje volonterskih računa
-	* Odobaravanje građanskih računa
-	* Pregled žalbi
-	* Banovanje korisničkih računa
-	* Uklanjanje komentara
+	* Administrator
+		* Pristup komandnoj ploči
+		* Odobravanje volonterskih računa
+		* Odobaravanje građanskih računa
+		* Pregled žalbi
+		* Banovanje korisničkih računa
+		* Uklanjanje komentara
