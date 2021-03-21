@@ -11,8 +11,8 @@ Kreatori aplikacije, podržavaju i podstiču podnosioce zahtjeva da nagrade volo
 
 ### Akteri
 	* Neregistrovani posjetioci stranice
-	* Registrovani građani
-	* Volonteri
+	* Registrovani građanin
+	* Volonter
 	* Administrator
 
 ### Funkcionalnosti
@@ -21,7 +21,7 @@ Kreatori aplikacije, podržavaju i podstiču podnosioce zahtjeva da nagrade volo
 		* Pregled naslovne stranice
 		* Registracija na stranicu ili kreiranje korisničkog računa
 
-	* Registrovani građani
+	* Registrovani građanin
 		* Kreiranje zahtjeva za odlazak u kupovinu
 		* Kreiranje zahtjeva za odlazak u banku
 		* Kreiranje zahtjeva za odlazak u poštu
@@ -30,14 +30,15 @@ Kreatori aplikacije, podržavaju i podstiču podnosioce zahtjeva da nagrade volo
 		* Podnošenje žalbe na volontera
 		* Ocjenjivanje volontera
 
-	* Registrovani volonteri
+	* Registrovani volonter
 		* Pregled zahtjeva kreiranih od strane građana
-		* Slanje ponude za pomoć građanima
-		* Podnošenje žalbe na građana
-		* Ocjenjivanje građana
+		* Slanje ponude za pomoć građaninu
+		* Podnošenje žalbe na građanina
+		* Ocjenjivanje građanina
 
 	* Administrator
 		* Pristup komandnoj ploči
+		* Kreiranje administratorkog računa
 		* Odobravanje volonterskih računa
 		* Odobaravanje građanskih računa
 		* Pregled žalbi
