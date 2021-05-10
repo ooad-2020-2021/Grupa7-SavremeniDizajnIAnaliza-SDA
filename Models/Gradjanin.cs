@@ -2,16 +2,20 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
 
 namespace Solidarity.Models
 {
+    [Table("Gradjanin")]
     public class Gradjanin : RegistrovaniKorisnik
     {
+        [Required]
         string adresaStanovanja;
+        [Required]
         int brojZalbiNaKorisnika;
-
-        ZahtjevZaBanku kreirajZahtjevZaBanku() { }
-        ZahtjevZaPostu kreirajZahtjevZaPostu() { }
-        ZahtjevZaKupovinu kreirajZahtjevZaKupovinu() { }
+        ZahtjevZaBanku kreirajZahtjevZaBanku() { return new ZahtjevZaBanku(); }
+        ZahtjevZaPostu kreirajZahtjevZaPostu() { return new ZahtjevZaPostu(); }
+        ZahtjevZaKupovinu kreirajZahtjevZaKupovinu() { return new ZahtjevZaKupovinu();}
     }
 }

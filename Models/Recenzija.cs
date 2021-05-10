@@ -2,14 +2,22 @@
 using System.Collections.Generic;
 using System.Linq;
 using System.Threading.Tasks;
+using System.ComponentModel.DataAnnotations;
+using System.ComponentModel.DataAnnotations.Schema;
+
 
 namespace Solidarity.Models
 {
+    [Table("Recenzija")]
     public class Recenzija
     {
+        [Key]
+        [Required]
         int recenzijaId;
+        [Required]
         int ocjena;
         string komentar;
+        [Required]
         DateTime vrijemeIDatum;
 
         public Recenzija(int recenzijaId, int ocjena, string komentar, DateTime vrijemeIDatum)
