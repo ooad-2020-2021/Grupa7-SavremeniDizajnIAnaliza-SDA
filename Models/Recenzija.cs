@@ -16,6 +16,7 @@ namespace Solidarity.Models
         int recenzijaId;
         [Required]
         int ocjena;
+        [Column]
         string komentar;
         [Required]
         DateTime vrijemeIDatum;
