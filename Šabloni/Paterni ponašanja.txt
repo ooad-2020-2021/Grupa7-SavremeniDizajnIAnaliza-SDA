@@ -1,0 +1,55 @@
+Strategy patern
+
+Unutar volontera imamo listu Zahtjeva koje je preuzeo.
+Možemo implementirati strategy pattern tako da možemo odabrati načine sortiranja(po datumu, imenu ili prezimenu podnosioca zahtjeva i sl.)
+
+State patern
+
+Možemo imati dva state-a ulogovan i neulogovan.
+Ako korisnik nije ulogovan aktivan je state neulogovan.Dok je ovaj state aktivan korisnik ima samo osnovne mogućnosti npr. samo pregled podnesenih zahtjeva.
+Kada je korisnik ulogovan aktivan je state ulogovan.Sada korisnik dobija dodatne mogućnosti u zavisnosti da li je Građanin, Administrator ili Volonter.
+
+Volonter- može preuzimati i nadgledati preuzete zahtjeve.
+Građanin- može kreirati nove zahtjeve i pregledati zahtjeve koje je do tad kreirao.
+Administartor- dobija pristup administratorskom panelu.
+
+
+Template patern
+
+Template patern možemo implementirati tako što Građanin može da kreira zahtjev pri čemu ima mogućnost da kreira jednu od tri vrste zahtjeva:
+	-ZahtjevZaKupovinu
+	-ZahtjevZaBanku
+	-ZahtjevZaPostu
+Dakle imamo tri template-a za Klasu Zahtjev čiju instancu Građanin može kreirat.
+
+Observer patern
+
+Kada volonter preuzme zahtjev, građaninu koji je kreirao zahtjev se šalje notifikacija da je njego zahtjev preuzet.
+Ako bi se nastavio dalji razvoj aplikacije mogla bi se dodati mogućnost da korisnik ima pravo da odabere da mu se pošalje notifikacija ( npr e-mailom) kada se nakupi određeni broj novokreiranih zahtjeva.
+
+
+Iterator patern
+
+Svaki volonter može vidjeti listu zahtjeva koje je preuzeo i svaki građanin može vidjeti listu zahtjeva koje je kreirao.
+Nad ovim listama se može implementirat iterator patern.
+
+Chain of responsibility patern.
+
+Ovaj patern možemo koristiti prilikom autentifikacije i autorizacije različitih vrsta korisnika i njihovom pravu pristupa zahtjevima.
+Možemo kreirati handler koji provjerava da li korisnik ima prava čitanja, kreiranja ili brisanja zahtjeva iz liste.
+Kasnije ako bi se razvoj ove aplikacije nastavio moze doci  do potrebe za dodavanjem novih handlera koji ce vršiti potrebne provjere.
+
+
+Mediator patern
+
+// Za sad nemam ideja.
+ 
+
+
+
+
+
+
+
+
+
