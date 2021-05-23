@@ -12,7 +12,7 @@ namespace Solidarity.Models
     {
         [Key]
         [Required]
-        int id;
+        public int id { get; set; }
         [Required]
         string ime;
         [Required]
