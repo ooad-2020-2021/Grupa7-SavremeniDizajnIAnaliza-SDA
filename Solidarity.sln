@@ -3,7 +3,7 @@ Microsoft Visual Studio Solution File, Format Version 12.00
 # Visual Studio Version 16
 VisualStudioVersion = 16.0.31105.61
 MinimumVisualStudioVersion = 10.0.40219.1
-Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solidarity", "Solidarity.csproj", "{8ED26AAB-3A6E-4F6E-897E-00D16132D4EC}"
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Solidarity", "Solidarity.csproj", "{6C002F6F-4B77-4A70-A4D1-258F32BA461C}"
 EndProject
 Global
 	GlobalSection(SolutionConfigurationPlatforms) = preSolution
@@ -11,15 +11,15 @@ Global
 		Release|Any CPU = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(ProjectConfigurationPlatforms) = postSolution
-		{8ED26AAB-3A6E-4F6E-897E-00D16132D4EC}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
-		{8ED26AAB-3A6E-4F6E-897E-00D16132D4EC}.Debug|Any CPU.Build.0 = Debug|Any CPU
-		{8ED26AAB-3A6E-4F6E-897E-00D16132D4EC}.Release|Any CPU.ActiveCfg = Release|Any CPU
-		{8ED26AAB-3A6E-4F6E-897E-00D16132D4EC}.Release|Any CPU.Build.0 = Release|Any CPU
+		{6C002F6F-4B77-4A70-A4D1-258F32BA461C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{6C002F6F-4B77-4A70-A4D1-258F32BA461C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{6C002F6F-4B77-4A70-A4D1-258F32BA461C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{6C002F6F-4B77-4A70-A4D1-258F32BA461C}.Release|Any CPU.Build.0 = Release|Any CPU
 	EndGlobalSection
 	GlobalSection(SolutionProperties) = preSolution
 		HideSolutionNode = FALSE
 	EndGlobalSection
 	GlobalSection(ExtensibilityGlobals) = postSolution
-		SolutionGuid = {EA42850F-017B-43DB-B469-F287C47E598C}
+		SolutionGuid = {4DC69838-A155-4871-99C8-922BF219F9AE}
 	EndGlobalSection
 EndGlobal
