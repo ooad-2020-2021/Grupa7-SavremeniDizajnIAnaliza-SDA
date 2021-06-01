@@ -11,11 +11,16 @@ namespace Solidarity.Models
     public class Gradjanin : RegistrovaniKorisnik
     {
         [Required]
-        string adresaStanovanja;
+        string adresaStanovanja { get; set; }
         [Required]
-        int brojZalbiNaKorisnika;
+        int brojZalbiNaKorisnika { get; set; }
         ZahtjevZaBanku kreirajZahtjevZaBanku() { return new ZahtjevZaBanku(); }
         ZahtjevZaPostu kreirajZahtjevZaPostu() { return new ZahtjevZaPostu(); }
         ZahtjevZaKupovinu kreirajZahtjevZaKupovinu() { return new ZahtjevZaKupovinu();}
+
+        public Gradjanin()
+        {
+
+        }
     }
 }

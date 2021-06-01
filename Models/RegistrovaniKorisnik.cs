@@ -14,16 +14,16 @@ namespace Solidarity.Models
         [Required]
         public int id { get; set; }
         [Required]
-        string ime;
+        string ime { get; set; }
         [Required]
-        string prezime;
+        string prezime { get; set; }
         [Required]
-        DateTime datum;
+        DateTime datum { get; set; }
         [Required]
-        string jmbg;
+        string jmbg { get; set; }
         [Required]
-        string email;
+        string email { get; set; }
         [Required]
-        string brojTelefona;
+        string brojTelefona { get; set; }
     }
 }
