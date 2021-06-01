@@ -69,3 +69,9 @@ body {
   white-space: nowrap;
   line-height: 60px; /* Vertically center the text there */
 }
+
+.pocetna-slika {
+    color: rgba(9, 162, 255, 0.85);
+    background: url("../img/tech/bonding-daylight-friends-1645634.jpg") no-repeat;
+    background-size: cover;
+}

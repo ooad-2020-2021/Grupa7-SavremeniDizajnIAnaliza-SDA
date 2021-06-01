@@ -168,7 +168,6 @@ C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Solidarity.Tag
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Solidarity.RazorCoreGenerate.cache
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Areas\Identity\Pages\_ViewStart.cshtml.g.cs
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Home\Index.cshtml.g.cs
-C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Home\Privacy.cshtml.g.cs
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Shared\Error.cshtml.g.cs
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_Layout.cshtml.g.cs
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Shared\_LoginPartial.cshtml.g.cs
@@ -182,3 +181,5 @@ C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Solidarity.csp
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Solidarity.dll
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Solidarity.pdb
 C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Solidarity.genruntimeconfig.cache
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Home\Iskustva.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\bin\Debug\netcoreapp3.1\package-lock.json
