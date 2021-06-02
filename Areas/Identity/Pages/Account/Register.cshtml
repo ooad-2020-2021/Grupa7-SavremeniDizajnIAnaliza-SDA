@@ -1,0 +1,38 @@
+﻿@page
+@model RegisterModel
+@{
+    ViewData["Title"] = "Register";
+}
+
+<h1>@ViewData["Title"]</h1>
+
+<main class="page registration-page">
+    <section class="clean-block clean-form dark">
+        <div class="container">
+            <div class="block-heading">
+                <h2 class="text-info">Registracija</h2>
+                <p>Kreirajte vaš račun i pomozite sebi svojoj zajednici</p>
+            </div>
+            <form asp-route-returnUrl="@Model.ReturnUrl" method="post">
+                <div asp-validation-summary="All" class="text-danger"></div>
+                <div class="mb-3"><label class="form-label" for="name">Ime i prezime</label><input class="form-control item" type="text" id="name"></div>
+                <div class="mb-3"><label class="form-label" for="email" asp-for="Input.Email">Email</label><input class="form-control item" type="email" id="email" asp-for="Input.Email"><span asp-validation-for="Input.Password" class="text-danger"></span></div>
+                <div class="mb-3"><label class="form-label" for="password" asp-for="Input.Password">Šifra</label><input class="form-control item" type="password" id="password" asp-for="Input.Password"><span asp-validation-for="Input.Password" class="text-danger"></span></div>
+                <div class="mb-3"><label class="form-label" for="password" asp-for="Input.ConfirmPassword">Ponovite šifru</label><input class="form-control item" type="password" id="password" asp-for="Input.ConfirmPassword"><span asp-validation-for="Input.ConfirmPassword" class="text-danger"></span></div>
+                <div class="mb-1">
+                    <input class="form-check-input" type="radio" id="volonter" name="TipKorisnika">
+                    <label class="form-check-label" for="volonter">Volonter</label>
+                </div>
+                <div class="mb-3">
+                    <input class="form-check-input" type="radio" id="gradjanin" name="TipKorisnika"> 
+                    <label class="form-check-label" for="gradjanin">Korisnik usluga</label>
+                </div>
+                <button class="btn btn-primary mt-3" type="submit">Sign Up</button>
+            </form>
+        </div>
+    </section>
+</main>
+
+@section Scripts {
+    <partial name="_ValidationScriptsPartial" />
+}
