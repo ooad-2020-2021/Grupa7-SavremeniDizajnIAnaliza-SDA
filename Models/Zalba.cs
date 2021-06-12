@@ -29,7 +29,7 @@ namespace Solidarity.Models
 
         public Zalba(int zalbaId, int gradjaninId, int volonterId, TipZalbe tipZalbe, string tekst)
         {
-            this.zalbaId = zalbaId;
+            this.id = zalbaId;
             this.gradjaninId = gradjaninId;
             this.volonterId = volonterId;
             this.tipZalbe = tipZalbe;

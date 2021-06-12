@@ -23,7 +23,7 @@ namespace Solidarity.Models
 
         public Recenzija(int recenzijaId, int ocjena, string komentar, DateTime vrijemeIDatum)
         {
-            this.recenzijaId = recenzijaId;
+            this.id = recenzijaId;
             this.ocjena = ocjena;
             this.komentar = komentar;
             this.vrijemeIDatum = vrijemeIDatum;
