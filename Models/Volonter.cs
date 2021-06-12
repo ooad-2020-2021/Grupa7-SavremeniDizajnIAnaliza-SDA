@@ -13,8 +13,10 @@ namespace Solidarity.Models
         [NotMapped]
         List<Zahtjev> aktivniZahtjevi;
         [Column]
-        int brojZalbiNaKorisnika;
+        int brojZalbiNaKorisnika { get; set; }
 
-        void dodajNoviZahtjev(Zahtjev zahtjev) { }
+        void dodajNoviZahtjev(Zahtjev zahtjev) {
+            aktivniZahtjevi.Add(zahtjev);
+        }
     }
 }

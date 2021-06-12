@@ -11,24 +11,24 @@ namespace Solidarity.Models
     public class ZahtjevZaPostu : Zahtjev
     {
         [Required]
-        int brojPosiljki;
+        int brojPosiljki { get; set; }
         [Required]
-        string vrstaUsluge;
+        string vrstaUsluge { get; set; }
+            [Required]
+        string vrstaPosiljke { get; set; }
         [Required]
-        string vrstaPosiljke;
+        string odredisnaPosta { get; set; }
         [Required]
-        string odredisnaPosta;
+        string primalac { get; set; }
         [Required]
-        string primalac;
+        string adresaPrimaoca { get; set; }
         [Required]
-        string adresaPrimaoca;
+        int masaUGramima { get; set; }
         [Required]
-        int masaUGramima;
+        DateTime rokIsporuke { get; set; }
         [Required]
-        DateTime rokIsporuke;
+        double vrijednostPosiljke { get; set; }
         [Required]
-        double vrijednostPosiljke;
-        [Required]
-        int prijemniBroj;
+        int prijemniBroj { get; set; }
     }
 }

@@ -16,15 +16,15 @@ namespace Solidarity.Models
     public class Zalba
     {
         [Key]
-        int zalbaId;
+        int zalbaId { get; set; }
         [ForeignKey("Gradjanin")]
-        int gradjaninId;
+        int gradjaninId { get; set; }
         [ForeignKey("Volonter")]
-        int volonterId;
+        int volonterId { get; set; }
         [Column]
-        TipZalbe tipZalbe;
+        TipZalbe tipZalbe { get; set; }
         [Column]
-        string tekst;
+        string tekst { get; set; }
 
         public Zalba(int zalbaId, int gradjaninId, int volonterId, TipZalbe tipZalbe, string tekst)
         {

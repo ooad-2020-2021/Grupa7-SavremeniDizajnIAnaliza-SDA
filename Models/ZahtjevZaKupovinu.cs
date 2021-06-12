@@ -13,7 +13,7 @@ namespace Solidarity.Models
     {
         [NotMapped]
         Dictionary<string, double> artikli;
-        void dodajArtikl(string artikl, double kolicina) { }
-        void obrisiArtikl(string artikl) { }
+        void dodajArtikl(string artikl, double kolicina) { artikli.Add(artikl, kolicina); }
+        void obrisiArtikl(string artikl) { artikli.Remove(artikl); }
     }
 }

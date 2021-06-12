@@ -11,24 +11,27 @@ namespace Solidarity.Models
     public class ZahtjevZaBanku : Zahtjev
     {
         [Required]
-        string svrhaDoznake;
+        string svrhaDoznake { get; set; }
         [Required]
-        string imeIPrezimeUplatioca;
+        string imeIPrezimeUplatioca { get; set; }
         [Required]
-        string primalac;
+        string primalac { get; set; }
         [Required]
-        string racunPrimaoca;
+        string racunPrimaoca { get; set; }
         [Column]
-        string sifraOpcine;
+        string sifraOpcine { get; set; }
         [Column]
-        string vrstaPrihoda;
+        string vrstaPrihoda { get; set; }
         [Column]
-        string budzetskaOrganizacija;
+        string budzetskaOrganizacija { get; set; }
         [Column]
-        string pozivNaBroj;
+        string pozivNaBroj { get; set; }
         [Required]
-        double iznos;
+        double iznos
+        {
+            get; set;
+        }
         [Column]
-        bool hitniNalog;
+        bool hitniNalog { get; set; }
     }
 }
