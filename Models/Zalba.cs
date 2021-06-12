@@ -12,11 +12,12 @@ namespace Solidarity.Models
         ZalbaNaVolontera,
         ZalbaNaGradjanina
     }
-    [Table("ZahtjevZaPostu")]
+    [Table("Zalba")]
     public class Zalba
     {
         [Key]
-        int zalbaId { get; set; }
+        [Required]
+        public int id { get; set; }
         [ForeignKey("Gradjanin")]
         int gradjaninId { get; set; }
         [ForeignKey("Volonter")]

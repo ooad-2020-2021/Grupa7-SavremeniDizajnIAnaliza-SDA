@@ -10,6 +10,9 @@ namespace Solidarity.Models
     [Table("Gradjanin")]
     public class Gradjanin : RegistrovaniKorisnik
     {
+        [Key]
+        [Required]
+        public int id { get; set; }
         [Required]
         string adresaStanovanja { get; set; }
         [Required]

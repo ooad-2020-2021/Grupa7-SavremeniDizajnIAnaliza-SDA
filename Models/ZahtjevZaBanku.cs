@@ -10,6 +10,9 @@ namespace Solidarity.Models
     [Table("ZahtjevZaBanku")]
     public class ZahtjevZaBanku : Zahtjev
     {
+        [Key]
+        [Required]
+        public int id { get; set; }
         [Required]
         string svrhaDoznake { get; set; }
         [Required]

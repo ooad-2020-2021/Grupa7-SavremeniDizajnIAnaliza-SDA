@@ -13,7 +13,7 @@ namespace Solidarity.Models
     {
         [Key]
         [Required]
-        int recenzijaId { get; set; }
+        int id { get; set; }
         [Required]
         int ocjena { get; set; }
         [Column]

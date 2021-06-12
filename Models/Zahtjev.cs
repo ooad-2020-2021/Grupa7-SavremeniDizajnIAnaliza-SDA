@@ -12,7 +12,7 @@ namespace Solidarity.Models
     {
         [Key]
         [Required]
-        int zahtjevId;
+        public int id { get; set; }
         [ForeignKey("Gradjanin")]
         [Required]
         int podnosilacId;

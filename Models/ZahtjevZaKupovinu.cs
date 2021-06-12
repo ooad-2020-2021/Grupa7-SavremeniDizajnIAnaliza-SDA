@@ -11,6 +11,9 @@ namespace Solidarity.Models
     [Table("ZahtjevZaKupovinu")]
     public class ZahtjevZaKupovinu : Zahtjev
     {
+        [Key]
+        [Required]
+        public int id { get; set; }
         [NotMapped]
         Dictionary<string, double> artikli;
         void dodajArtikl(string artikl, double kolicina) { artikli.Add(artikl, kolicina); }

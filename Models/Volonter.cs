@@ -10,6 +10,9 @@ namespace Solidarity.Models
     [Table("Volonter")]
     public class Volonter : RegistrovaniKorisnik
     {
+        [Key]
+        [Required]
+        public int id { get; set; }
         [NotMapped]
         List<Zahtjev> aktivniZahtjevi;
         [Column]
