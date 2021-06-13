@@ -16,5 +16,10 @@ namespace Solidarity.Data
         public DbSet<Solidarity.Models.Administrator> Administrator { get; set; }
         public DbSet<Solidarity.Models.Gradjanin> Gradjanin { get; set; }
         public DbSet<Solidarity.Models.Volonter> Volonter { get; set; }
+        public DbSet<Solidarity.Models.ZahtjevZaBanku> ZahtjevZaBanku { get; set; }
+        public DbSet<Solidarity.Models.ZahtjevZaKupovinu> ZahtjevZaKupovinu { get; set; }
+        public DbSet<Solidarity.Models.ZahtjevZaPostu> ZahtjevZaPostu { get; set; }
+        public DbSet<Solidarity.Models.Zalba> Zalba { get; set; }
+        public DbSet<Solidarity.Models.Recenzija> Recenzija { get; set; }
     }
 }

@@ -26,6 +26,7 @@ namespace Solidarity.Models
         TipZalbe tipZalbe { get; set; }
         [Column]
         string tekst { get; set; }
+        public Zalba() { }
 
         public Zalba(int zalbaId, int gradjaninId, int volonterId, TipZalbe tipZalbe, string tekst)
         {
