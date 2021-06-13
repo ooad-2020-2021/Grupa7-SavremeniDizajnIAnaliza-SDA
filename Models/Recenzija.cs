@@ -13,13 +13,15 @@ namespace Solidarity.Models
     {
         [Key]
         [Required]
-        int id { get; set; }
+        public int id { get; set; }
         [Required]
         int ocjena { get; set; }
         [Column]
         string komentar { get; set; }
         [Required]
         DateTime vrijemeIDatum { get; set; }
+
+        Recenzija() { }
 
         public Recenzija(int recenzijaId, int ocjena, string komentar, DateTime vrijemeIDatum)
         {
