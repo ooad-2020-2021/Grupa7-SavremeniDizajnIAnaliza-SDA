@@ -804,6 +804,32 @@
           "lib/netstandard1.0/_._": {}
         }
       },
+      "Microsoft.PowerBI.Api/3.24.1": {
+        "type": "package",
+        "dependencies": {
+          "Microsoft.Rest.ClientRuntime": "2.3.21",
+          "Newtonsoft.Json": "11.0.2",
+          "System.Security.Cryptography.Cng": "4.7.0"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.PowerBI.Api.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.PowerBI.Api.dll": {}
+        }
+      },
+      "Microsoft.Rest.ClientRuntime/2.3.21": {
+        "type": "package",
+        "dependencies": {
+          "Newtonsoft.Json": "10.0.3"
+        },
+        "compile": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        },
+        "runtime": {
+          "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll": {}
+        }
+      },
       "Microsoft.VisualStudio.Web.CodeGeneration/3.1.5": {
         "type": "package",
         "dependencies": {
@@ -2264,16 +2290,16 @@
           }
         }
       },
-      "System.Security.Cryptography.Cng/4.5.0": {
+      "System.Security.Cryptography.Cng/4.7.0": {
         "type": "package",
         "compile": {
-          "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
+          "ref/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {}
         },
         "runtime": {
-          "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {}
+          "lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {}
         },
         "runtimeTargets": {
-          "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll": {
+          "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll": {
             "assetType": "runtime",
             "rid": "win"
           }
@@ -3825,6 +3851,38 @@
         "microsoft.netcore.targets.1.1.0.nupkg.sha512",
         "microsoft.netcore.targets.nuspec",
         "runtime.json"
+      ]
+    },
+    "Microsoft.PowerBI.Api/3.24.1": {
+      "sha512": "uB4QT4zjVR4fykHjl8lDm/YJAaXCKevzalVbUJdWFjd7RhrjvBts4HjcMRcvopZimCPdjyoM7e+0P/g571uITg==",
+      "type": "package",
+      "path": "microsoft.powerbi.api/3.24.1",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net48/Microsoft.PowerBI.Api.dll",
+        "lib/netstandard2.0/Microsoft.PowerBI.Api.dll",
+        "microsoft.powerbi.api.3.24.1.nupkg.sha512",
+        "microsoft.powerbi.api.nuspec"
+      ]
+    },
+    "Microsoft.Rest.ClientRuntime/2.3.21": {
+      "sha512": "KDYlgTyO693V6pi6SGk9eg+dDvKjuOgmkapbHdpnB1SmTPKpvWxVLIMyARJsCFLfB6axyURUJHOfvxBQ0yJKeg==",
+      "type": "package",
+      "path": "microsoft.rest.clientruntime/2.3.21",
+      "files": [
+        ".nupkg.metadata",
+        ".signature.p7s",
+        "lib/net452/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net452/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/net461/Microsoft.Rest.ClientRuntime.dll",
+        "lib/net461/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard1.4/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.dll",
+        "lib/netstandard2.0/Microsoft.Rest.ClientRuntime.runtimeconfig.json",
+        "microsoft.rest.clientruntime.2.3.21.nupkg.sha512",
+        "microsoft.rest.clientruntime.nuspec"
       ]
     },
     "Microsoft.VisualStudio.Web.CodeGeneration/3.1.5": {
@@ -7692,10 +7750,10 @@
         "system.security.cryptography.algorithms.nuspec"
       ]
     },
-    "System.Security.Cryptography.Cng/4.5.0": {
-      "sha512": "WG3r7EyjUe9CMPFSs6bty5doUqT+q9pbI80hlNzo2SkPkZ4VTuZkGWjpp77JB8+uaL4DFPRdBsAY+DX3dBK92A==",
+    "System.Security.Cryptography.Cng/4.7.0": {
+      "sha512": "4WQjFuypWtxb/bl/YwEE7LYGn4fgpsikFfBU6xwEm4YBYiRAhXAEJ62lILBu2JJSFbClIAntFTGfDZafn8yZTg==",
       "type": "package",
-      "path": "system.security.cryptography.cng/4.5.0",
+      "path": "system.security.cryptography.cng/4.7.0",
       "files": [
         ".nupkg.metadata",
         ".signature.p7s",
@@ -7705,13 +7763,21 @@
         "lib/MonoTouch10/_._",
         "lib/net46/System.Security.Cryptography.Cng.dll",
         "lib/net461/System.Security.Cryptography.Cng.dll",
+        "lib/net461/System.Security.Cryptography.Cng.xml",
         "lib/net462/System.Security.Cryptography.Cng.dll",
+        "lib/net462/System.Security.Cryptography.Cng.xml",
         "lib/net47/System.Security.Cryptography.Cng.dll",
+        "lib/net47/System.Security.Cryptography.Cng.xml",
         "lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll",
+        "lib/netcoreapp3.0/System.Security.Cryptography.Cng.xml",
         "lib/netstandard1.3/System.Security.Cryptography.Cng.dll",
         "lib/netstandard1.4/System.Security.Cryptography.Cng.dll",
         "lib/netstandard1.6/System.Security.Cryptography.Cng.dll",
         "lib/netstandard2.0/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard2.0/System.Security.Cryptography.Cng.xml",
+        "lib/netstandard2.1/System.Security.Cryptography.Cng.dll",
+        "lib/netstandard2.1/System.Security.Cryptography.Cng.xml",
         "lib/uap10.0.16299/_._",
         "lib/xamarinios10/_._",
         "lib/xamarinmac20/_._",
@@ -7730,11 +7796,15 @@
         "ref/netcoreapp2.0/System.Security.Cryptography.Cng.xml",
         "ref/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
         "ref/netcoreapp2.1/System.Security.Cryptography.Cng.xml",
+        "ref/netcoreapp3.0/System.Security.Cryptography.Cng.dll",
+        "ref/netcoreapp3.0/System.Security.Cryptography.Cng.xml",
         "ref/netstandard1.3/System.Security.Cryptography.Cng.dll",
         "ref/netstandard1.4/System.Security.Cryptography.Cng.dll",
         "ref/netstandard1.6/System.Security.Cryptography.Cng.dll",
         "ref/netstandard2.0/System.Security.Cryptography.Cng.dll",
         "ref/netstandard2.0/System.Security.Cryptography.Cng.xml",
+        "ref/netstandard2.1/System.Security.Cryptography.Cng.dll",
+        "ref/netstandard2.1/System.Security.Cryptography.Cng.xml",
         "ref/uap10.0.16299/_._",
         "ref/xamarinios10/_._",
         "ref/xamarinmac20/_._",
@@ -7742,14 +7812,19 @@
         "ref/xamarinwatchos10/_._",
         "runtimes/win/lib/net46/System.Security.Cryptography.Cng.dll",
         "runtimes/win/lib/net461/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net461/System.Security.Cryptography.Cng.xml",
         "runtimes/win/lib/net462/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net462/System.Security.Cryptography.Cng.xml",
         "runtimes/win/lib/net47/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/net47/System.Security.Cryptography.Cng.xml",
         "runtimes/win/lib/netcoreapp2.0/System.Security.Cryptography.Cng.dll",
         "runtimes/win/lib/netcoreapp2.1/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Cng.dll",
+        "runtimes/win/lib/netcoreapp3.0/System.Security.Cryptography.Cng.xml",
         "runtimes/win/lib/netstandard1.4/System.Security.Cryptography.Cng.dll",
         "runtimes/win/lib/netstandard1.6/System.Security.Cryptography.Cng.dll",
         "runtimes/win/lib/uap10.0.16299/_._",
-        "system.security.cryptography.cng.4.5.0.nupkg.sha512",
+        "system.security.cryptography.cng.4.7.0.nupkg.sha512",
         "system.security.cryptography.cng.nuspec",
         "useSharedDesignerContext.txt",
         "version.txt"
@@ -8838,23 +8913,29 @@
       "Microsoft.AspNetCore.Identity.UI >= 3.1.15",
       "Microsoft.EntityFrameworkCore.SqlServer >= 3.1.15",
       "Microsoft.EntityFrameworkCore.Tools >= 3.1.15",
+      "Microsoft.PowerBI.Api >= 3.24.1",
       "Microsoft.VisualStudio.Web.CodeGeneration.Design >= 3.1.5"
     ]
   },
   "packageFolders": {
-    "C:\\Users\\User\\.nuget\\packages\\": {}
+    "C:\\Users\\tarik\\.nuget\\packages\\": {},
+    "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\User\\Source\\Repos\\Grupa7-SavremeniDizajnIAnaliza-SDA-implementacija\\Solidarity.csproj",
+      "projectUniqueName": "C:\\Users\\tarik\\Desktop\\Crap\\OOAD Projekat\\Solidarity.csproj",
       "projectName": "Solidarity",
-      "projectPath": "C:\\Users\\User\\Source\\Repos\\Grupa7-SavremeniDizajnIAnaliza-SDA-implementacija\\Solidarity.csproj",
-      "packagesPath": "C:\\Users\\User\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\User\\Source\\Repos\\Grupa7-SavremeniDizajnIAnaliza-SDA-implementacija\\obj\\",
+      "projectPath": "C:\\Users\\tarik\\Desktop\\Crap\\OOAD Projekat\\Solidarity.csproj",
+      "packagesPath": "C:\\Users\\tarik\\.nuget\\packages\\",
+      "outputPath": "C:\\Users\\tarik\\Desktop\\Crap\\OOAD Projekat\\obj\\",
       "projectStyle": "PackageReference",
+      "fallbackFolders": [
+        "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
+      ],
       "configFilePaths": [
-        "C:\\Users\\User\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Users\\tarik\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
       "originalTargetFrameworks": [
@@ -8901,6 +8982,10 @@
             "suppressParent": "All",
             "target": "Package",
             "version": "[3.1.15, )"
+          },
+          "Microsoft.PowerBI.Api": {
+            "target": "Package",
+            "version": "[3.24.1, )"
           },
           "Microsoft.VisualStudio.Web.CodeGeneration.Design": {
             "target": "Package",

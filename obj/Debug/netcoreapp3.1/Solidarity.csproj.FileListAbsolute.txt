@@ -506,3 +506,20 @@ C:\Users\User\Source\Repos\Grupa7-SavremeniDizajnIAnaliza-SDA-implementacija\obj
 C:\Users\User\Source\Repos\Grupa7-SavremeniDizajnIAnaliza-SDA-implementacija\obj\Debug\netcoreapp3.1\Razor\Views\Gradjanins\Details.cshtml.g.cs
 C:\Users\User\Source\Repos\Grupa7-SavremeniDizajnIAnaliza-SDA-implementacija\obj\Debug\netcoreapp3.1\Razor\Views\Gradjanins\Edit.cshtml.g.cs
 C:\Users\User\Source\Repos\Grupa7-SavremeniDizajnIAnaliza-SDA-implementacija\obj\Debug\netcoreapp3.1\Razor\Views\Gradjanins\Index.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\bin\Debug\netcoreapp3.1\Microsoft.PowerBI.Api.dll
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\bin\Debug\netcoreapp3.1\Microsoft.Rest.ClientRuntime.dll
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Administrators\Create.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Administrators\Delete.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Administrators\Details.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Administrators\Edit.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Administrators\Index.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Gradjanins\Create.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Gradjanins\Delete.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Gradjanins\Details.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Gradjanins\Edit.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Gradjanins\Index.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Volonters\Create.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Volonters\Delete.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Volonters\Details.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Volonters\Edit.cshtml.g.cs
+C:\Users\tarik\Desktop\Crap\OOAD Projekat\obj\Debug\netcoreapp3.1\Razor\Views\Volonters\Index.cshtml.g.cs
