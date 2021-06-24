@@ -19,6 +19,10 @@ namespace Solidarity.Controllers
             _context = context;
         }
 
+        public ZahtjevZaBankusController()
+        {
+        }
+
         // GET: ZahtjevZaBankus
         public async Task<IActionResult> Index()
         {
